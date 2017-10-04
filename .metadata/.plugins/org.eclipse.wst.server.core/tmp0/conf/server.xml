@@ -124,7 +124,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log." suffix=".txt"/>
 
-      <Context docBase="D:\flyerworkspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="D:\flyerworkspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\webstore2" path="/webstore2" reloadable="true" source="org.eclipse.jst.jee.server:webstore2"/></Host>
+      <Context docBase="D:\flyerworkspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="D:\flyerworkspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\webstore2" path="/webstore2" reloadable="true" source="org.eclipse.jst.jee.server:webstore2"/><Context docBase="D:\flyerworkspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\com.gvm.websample1" path="/com.gvm.websample1" reloadable="true" source="org.eclipse.jst.j2ee.server:com.gvm.websample1"/></Host>
     </Engine>
   </Service>
 </Server>

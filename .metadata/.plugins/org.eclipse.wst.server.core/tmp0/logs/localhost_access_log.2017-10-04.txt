@@ -131,3 +131,5 @@
 127.0.0.1 - - [04/Oct/2017:10:33:52 +0530] "GET /webstore2/images/banner.jpg HTTP/1.1" 304 -
 127.0.0.1 - - [04/Oct/2017:10:33:52 +0530] "GET /webstore2/css/bootstrap.css.map HTTP/1.1" 404 1013
 127.0.0.1 - - [04/Oct/2017:10:33:58 +0530] "GET /webstore2/css/bootstrap.css.map HTTP/1.1" 404 1013
+127.0.0.1 - - [04/Oct/2017:14:42:26 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [04/Oct/2017:14:42:28 +0530] "GET /com.gvm.websample1/ HTTP/1.1" 200 63
