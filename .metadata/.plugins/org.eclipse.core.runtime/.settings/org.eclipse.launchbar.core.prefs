@@ -1,0 +1,8 @@
+configDescList=org.jboss.tools.wtp.server.launchbar.ModuleDescriptorType\:webstore1,org.eclipse.launchbar.core.descriptorType.default\:Tomcat v7.0 Server at localhost,org.jboss.tools.wtp.server.launchbar.ModuleDescriptorType\:webstore2
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:Tomcat\ v7.0\ Server\ at\ localhost/activeLaunchTarget=org.eclipse.remote.LocalServices\:Local
+org.eclipse.launchbar.core.descriptorType.default\:Tomcat\ v8.0\ Server\ at\ localhost/activeLaunchTarget=org.eclipse.remote.LocalServices\:Local
+org.jboss.tools.wtp.server.launchbar.ModuleDescriptorType\:webstore1/activeLaunchMode=run
+org.jboss.tools.wtp.server.launchbar.ModuleDescriptorType\:webstore1/activeLaunchTarget=org.jboss.tools.wtp.server.launchbar.connection\:Tomcat v7.0 Server at localhost
+org.jboss.tools.wtp.server.launchbar.ModuleDescriptorType\:webstore2/activeLaunchMode=run
+org.jboss.tools.wtp.server.launchbar.ModuleDescriptorType\:webstore2/activeLaunchTarget=org.jboss.tools.wtp.server.launchbar.connection\:Tomcat v7.0 Server at localhost
