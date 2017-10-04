@@ -1,5 +1,4 @@
 INDEX VERSION 1.127+D:\flyerworkspace\.metadata\.plugins\org.eclipse.jdt.core
-1834040892.index
 1765406557.index
 3164457182.index
 1505972308.index

@@ -1,0 +1,224 @@
+2017-10-04 12:47:03,211 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/gvm/source/com.gbm.sample1/0.1/com.gbm.sample1-0.1.pom
+2017-10-04 12:47:03,935 [ModalContext] ERROR o.e.m.c.u.i.w.MavenProjectWizardArchetypePage - Can't resolve Archetype com.gvm.source:com.gbm.sample1:0.1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.gvm.source:com.gbm.sample1:pom:0.1
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720) ~[na:na]
+	at org.eclipse.m2e.core.ui.internal.wizards.MavenProjectWizardArchetypePage$17.run(MavenProjectWizardArchetypePage.java:828) ~[org.eclipse.m2e.core.ui_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119) [org.eclipse.jface_3.11.1.v20160128-1644.jar:na]
+2017-10-04 12:49:24,704 [Worker-224] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' D:\flyerworkspace\com.gvm.sample1\pom.xml
+2017-10-04 12:49:42,717 [Worker-224] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.gvm.org:com.gvm.sample1:0.0.1-SNAPSHOT @ D:\flyerworkspace\com.gvm.sample1\pom.xml.
+2017-10-04 12:49:48,081 [Worker-224] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.gvm.sample1/src/main/java
+2017-10-04 12:49:48,084 [Worker-224] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.gvm.sample1/src/test/java
+2017-10-04 12:49:56,874 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-10-04 12:49:56,874 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\flyerworkspace\com.gvm.sample1\src\main\resources
+2017-10-04 12:49:56,876 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-10-04 12:49:56,876 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\flyerworkspace\com.gvm.sample1\src\test\resources
+2017-10-04 12:49:57,810 [Worker-224] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 33 sec
+2017-10-04 12:50:37,884 [Worker-225] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: GVM_Enterprises:com.gvm.sample1:0.0.1-SNAPSHOT @ D:\flyerworkspace\com.gvm.sample1\pom.xml.
+2017-10-04 12:50:38,406 [Worker-225] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-10-04 12:50:38,406 [Worker-225] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\flyerworkspace\com.gvm.sample1\src\main\resources
+2017-10-04 12:50:38,408 [Worker-225] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-10-04 12:50:38,408 [Worker-225] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\flyerworkspace\com.gvm.sample1\src\test\resources
+2017-10-04 12:50:50,239 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-10-04 12:50:50,240 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\flyerworkspace\com.gvm.sample1\src\main\resources
+2017-10-04 12:50:50,241 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-10-04 12:50:50,241 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\flyerworkspace\com.gvm.sample1\src\test\resources
+2017-10-04 12:51:01,017 [Worker-218] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.gvm.org:com.gvm.sample1:0.0.1-SNAPSHOT @ D:\flyerworkspace\com.gvm.sample1\pom.xml.
+2017-10-04 12:51:01,273 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-10-04 12:51:01,273 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\flyerworkspace\com.gvm.sample1\src\main\resources
+2017-10-04 12:51:01,275 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-10-04 12:51:01,275 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\flyerworkspace\com.gvm.sample1\src\test\resources
+2017-10-04 12:51:16,618 [Worker-207] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.gvm.org:com.gvm.sample1:0.0.1-SNAPSHOT @ D:\flyerworkspace\com.gvm.sample1\pom.xml.
+2017-10-04 12:51:16,963 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-10-04 12:51:16,963 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\flyerworkspace\com.gvm.sample1\src\main\resources
+2017-10-04 12:51:16,965 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-10-04 12:51:16,965 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\flyerworkspace\com.gvm.sample1\src\test\resources
+2017-10-04 12:56:59,585 [Worker-207] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' D:\flyerworkspace\com.gvm.websample1\pom.xml
+2017-10-04 12:56:59,925 [Worker-207] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.gvm.org:com.gvm.websample1:0.0.1-SNAPSHOT @ D:\flyerworkspace\com.gvm.websample1\pom.xml.
+2017-10-04 12:57:01,383 [Worker-207] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.gvm.websample1/src/main/java
+2017-10-04 12:57:01,383 [Worker-207] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /com.gvm.websample1/src/main/resources
+2017-10-04 12:57:01,383 [Worker-207] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.gvm.websample1/src/test/java
+2017-10-04 12:57:05,356 [Worker-207] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-04 12:57:05,365 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-04 12:57:05,366 [Worker-207] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-04 12:57:05,367 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\flyerworkspace\com.gvm.websample1\src\test\resources
+2017-10-04 12:57:09,525 [Worker-207] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 9 sec
+2017-10-04 12:57:10,726 [Worker-230] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-04 12:57:10,754 [Worker-230] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-04 12:57:10,755 [Worker-230] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-04 12:57:10,756 [Worker-230] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\flyerworkspace\com.gvm.websample1\src\test\resources
+2017-10-04 12:57:11,795 [Worker-227] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-04 12:57:11,796 [Worker-227] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-04 12:57:11,797 [Worker-227] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-04 12:57:11,798 [Worker-227] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\flyerworkspace\com.gvm.websample1\src\test\resources
+2017-10-04 12:58:44,604 [Worker-207] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-04 12:58:44,872 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-04 12:58:44,874 [Worker-207] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-04 12:58:44,874 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\flyerworkspace\com.gvm.websample1\src\test\resources
+2017-10-04 12:59:00,306 [Worker-225] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-04 12:59:00,307 [Worker-225] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-04 12:59:00,309 [Worker-225] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-04 12:59:00,310 [Worker-225] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\flyerworkspace\com.gvm.websample1\src\test\resources
+2017-10-04 12:59:21,726 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-10-04 12:59:35,112 [Worker-228] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\flyerworkspace\com.gvm.websample1
+2017-10-04 12:59:35,112 [Worker-228] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -U -Dmaven.test.skip=true -DskipTests clean install
+2017-10-04 13:00:13,648 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-10-04 13:00:13,648 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\flyerworkspace\com.gvm.sample1\src\main\resources
+2017-10-04 13:00:13,650 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-10-04 13:00:13,650 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\flyerworkspace\com.gvm.sample1\src\test\resources
+2017-10-04 13:00:13,657 [Worker-207] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-04 13:00:13,659 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-04 13:00:13,662 [Worker-207] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-04 13:00:13,663 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\flyerworkspace\com.gvm.websample1\src\test\resources
+2017-10-04 13:00:19,600 [Worker-232] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-04 13:00:19,601 [Worker-232] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-04 13:00:19,602 [Worker-232] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-04 13:00:19,603 [Worker-232] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\flyerworkspace\com.gvm.websample1\src\test\resources
+2017-10-04 13:00:26,709 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-10-04 13:01:02,295 [Worker-228] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\flyerworkspace\com.gvm.websample1
+2017-10-04 13:01:02,296 [Worker-228] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean install
+2017-10-04 13:01:27,852 [Worker-227] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\flyerworkspace\com.gvm.websample1
+2017-10-04 13:01:27,853 [Worker-227] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean install
+2017-10-04 13:03:42,456 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-10-04 13:03:42,456 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\flyerworkspace\com.gvm.sample1\src\main\resources
+2017-10-04 13:03:42,458 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-10-04 13:03:42,458 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\flyerworkspace\com.gvm.sample1\src\test\resources
+2017-10-04 13:03:42,476 [Worker-207] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-04 13:03:42,760 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-04 13:03:42,762 [Worker-207] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-04 13:03:42,763 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\flyerworkspace\com.gvm.websample1\src\test\resources
+2017-10-04 13:03:51,184 [Worker-233] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-04 13:03:51,185 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-04 13:03:51,187 [Worker-233] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-04 13:03:51,188 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\flyerworkspace\com.gvm.websample1\src\test\resources
+2017-10-04 13:04:02,086 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-10-04 13:04:21,309 [Worker-234] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\flyerworkspace\com.gvm.websample1
+2017-10-04 13:04:21,309 [Worker-234] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -U -Dmaven.test.skip=true -DskipTests clean install
+2017-10-04 13:04:46,275 [Worker-231] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-04 13:04:46,276 [Worker-231] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-04 13:04:46,278 [Worker-231] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-04 13:04:46,279 [Worker-231] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\flyerworkspace\com.gvm.websample1\src\test\resources
+2017-10-04 13:04:46,279 [Worker-231] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of com.gvm.websample1
+2017-10-04 13:04:46,304 [Worker-231] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for com.gvm.websample1
+2017-10-04 13:04:46,328 [Worker-231] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-04 13:06:29,894 [Worker-233] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.gvm.org:com.gvm.websample1:0.0.1-SNAPSHOT @ D:\flyerworkspace\com.gvm.websample1\pom.xml.
+2017-10-04 13:06:30,734 [Worker-233] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-04 13:06:30,735 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-04 13:06:30,736 [Worker-233] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-04 13:06:30,737 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\flyerworkspace\com.gvm.websample1\src\test\resources
+2017-10-04 13:06:38,024 [Worker-232] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-04 13:06:38,025 [Worker-232] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-04 13:06:38,027 [Worker-232] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-04 13:06:38,028 [Worker-232] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\flyerworkspace\com.gvm.websample1\src\test\resources
+2017-10-04 13:06:47,933 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-10-04 13:07:11,847 [Worker-225] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\flyerworkspace\com.gvm.websample1
+2017-10-04 13:07:11,847 [Worker-225] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -U -Dmaven.test.skip=true -DskipTests clean install
+2017-10-04 13:07:33,229 [Worker-234] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-04 13:07:33,235 [Worker-234] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-04 13:07:33,238 [Worker-234] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-04 13:07:33,239 [Worker-234] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\flyerworkspace\com.gvm.websample1\src\test\resources
+2017-10-04 14:45:28,162 [Worker-242] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.gvm.org:com.gvm.websample1:0.0.1-SNAPSHOT @ D:\flyerworkspace\com.gvm.websample1\pom.xml.
+2017-10-04 14:45:33,337 [Worker-242] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-04 14:45:33,339 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-04 14:45:33,340 [Worker-242] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-04 14:45:33,341 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\flyerworkspace\com.gvm.websample1\src\test\resources
+2017-10-04 14:45:33,342 [Worker-242] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of com.gvm.websample1
+2017-10-04 14:45:33,342 [Worker-242] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for com.gvm.websample1
+2017-10-04 14:45:33,345 [Worker-242] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-04 14:45:50,452 [Worker-245] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.gvm.org:gvmsample1:0.0.1-SNAPSHOT @ D:\flyerworkspace\com.gvm.websample1\pom.xml.
+2017-10-04 14:45:51,334 [Worker-245] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-04 14:45:51,335 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-04 14:45:51,336 [Worker-245] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-04 14:45:51,337 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\flyerworkspace\com.gvm.websample1\src\test\resources
+2017-10-04 14:45:51,337 [Worker-245] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of com.gvm.websample1
+2017-10-04 14:45:51,337 [Worker-245] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for com.gvm.websample1
+2017-10-04 14:45:51,340 [Worker-245] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-04 14:46:02,439 [Worker-244] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.gvm.org:gvm_sample1:0.0.1-SNAPSHOT @ D:\flyerworkspace\com.gvm.websample1\pom.xml.
+2017-10-04 14:46:03,131 [Worker-244] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-04 14:46:03,132 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-04 14:46:03,133 [Worker-244] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-04 14:46:03,134 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\flyerworkspace\com.gvm.websample1\src\test\resources
+2017-10-04 14:46:03,134 [Worker-244] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of com.gvm.websample1
+2017-10-04 14:46:03,134 [Worker-244] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for com.gvm.websample1
+2017-10-04 14:46:03,138 [Worker-244] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-04 14:46:14,451 [Worker-247] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\flyerworkspace\com.gvm.websample1
+2017-10-04 14:46:14,451 [Worker-247] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -U -Dmaven.test.skip=true -DskipTests clean install
+2017-10-04 14:46:28,349 [Worker-247] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-04 14:46:28,351 [Worker-247] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-04 14:46:28,352 [Worker-247] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-04 14:46:28,353 [Worker-247] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\flyerworkspace\com.gvm.websample1\src\test\resources
+2017-10-04 14:46:28,353 [Worker-247] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of com.gvm.websample1
+2017-10-04 14:46:28,353 [Worker-247] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for com.gvm.websample1
+2017-10-04 14:46:28,356 [Worker-247] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-04 14:49:38,488 [Worker-244] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' D:\flyerworkspace\com.gvm.sample_1\pom.xml
+2017-10-04 14:49:38,585 [Worker-244] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.gvm.org:com.gvm.sample_1:0.0.1-SNAPSHOT @ D:\flyerworkspace\com.gvm.sample_1\pom.xml.
+2017-10-04 14:49:38,798 [Worker-244] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.gvm.sample_1/src/main/java
+2017-10-04 14:49:38,798 [Worker-244] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /com.gvm.sample_1/src/main/resources
+2017-10-04 14:49:38,798 [Worker-244] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.gvm.sample_1/src/test/java
+2017-10-04 14:49:40,217 [Worker-244] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-04 14:49:40,219 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-04 14:49:40,221 [Worker-244] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-04 14:49:40,222 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\flyerworkspace\com.gvm.sample_1\src\test\resources
+2017-10-04 14:49:41,658 [Worker-244] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 3 sec
+2017-10-04 14:49:42,881 [Worker-238] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-04 14:49:42,883 [Worker-238] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-04 14:49:42,884 [Worker-238] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-04 14:49:42,885 [Worker-238] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\flyerworkspace\com.gvm.sample_1\src\test\resources
+2017-10-04 14:49:43,238 [Worker-246] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-04 14:49:43,239 [Worker-246] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-04 14:49:43,241 [Worker-246] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-04 14:49:43,242 [Worker-246] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\flyerworkspace\com.gvm.sample_1\src\test\resources
+2017-10-04 14:51:27,556 [Worker-244] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-04 14:51:27,558 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-04 14:51:27,560 [Worker-244] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-04 14:51:27,561 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\flyerworkspace\com.gvm.websample1\src\test\resources
+2017-10-04 14:52:04,280 [Worker-246] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-04 14:52:04,281 [Worker-246] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-04 14:52:04,283 [Worker-246] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-04 14:52:04,284 [Worker-246] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\flyerworkspace\com.gvm.websample1\src\test\resources
+2017-10-04 14:52:29,603 [Worker-248] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-04 14:52:29,605 [Worker-248] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-04 14:52:29,606 [Worker-248] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-04 14:52:29,607 [Worker-248] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\flyerworkspace\com.gvm.websample1\src\test\resources
+2017-10-04 14:53:00,186 [Worker-249] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\flyerworkspace\com.gvm.websample1
+2017-10-04 14:53:00,186 [Worker-249] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -U -Dmaven.test.skip=true -DskipTests clean install
+2017-10-04 14:53:10,568 [Worker-250] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-04 14:53:10,569 [Worker-250] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-04 14:53:10,570 [Worker-250] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-04 14:53:10,571 [Worker-250] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\flyerworkspace\com.gvm.websample1\src\test\resources
+2017-10-04 14:53:11,705 [Worker-251] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-04 14:53:11,706 [Worker-251] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-04 14:53:11,708 [Worker-251] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-04 14:53:11,709 [Worker-251] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\flyerworkspace\com.gvm.websample1\src\test\resources
+2017-10-04 14:53:11,709 [Worker-251] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of com.gvm.websample1
+2017-10-04 14:53:11,709 [Worker-251] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for com.gvm.websample1
+2017-10-04 14:53:11,713 [Worker-251] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-04 14:53:13,120 [Worker-252] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-04 14:53:13,121 [Worker-252] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-04 14:53:13,122 [Worker-252] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-04 14:53:13,123 [Worker-252] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\flyerworkspace\com.gvm.websample1\src\test\resources
+2017-10-04 15:04:06,996 [Worker-252] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.gvm.org:com.gvm.sample1:0.0.1-SNAPSHOT @ D:\flyerworkspace\com.gvm.sample1\pom.xml.
+2017-10-04 15:04:08,395 [Worker-252] ERROR o.e.m.c.i.p.ProjectConfigurationManager - Resource '/com.gvm.sample1' does not exist.
+org.eclipse.core.internal.resources.ResourceException: Resource '/com.gvm.sample1' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:334) ~[org.eclipse.core.resources_3.10.1.v20150725-1910.jar:na]
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:208) ~[org.eclipse.core.resources_3.10.1.v20150725-1910.jar:na]
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:140) ~[org.eclipse.core.resources_3.10.1.v20150725-1910.jar:na]
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:521) ~[org.eclipse.core.resources_3.10.1.v20150725-1910.jar:na]
+	at org.jboss.tools.arquillian.maven.configurator.ArquillianProjectConfigurator.configureInternal(ArquillianProjectConfigurator.java:43) ~[na:na]
+	at org.jboss.tools.arquillian.maven.configurator.ArquillianProjectConfigurator.mavenProjectChanged(ArquillianProjectConfigurator.java:72) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.mavenProjectChanged(ProjectConfigurationManager.java:1000) ~[org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:919) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81) [org.eclipse.m2e.core_1.6.3.20160209-1446.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.7.0.v20150330-2103.jar:na]
